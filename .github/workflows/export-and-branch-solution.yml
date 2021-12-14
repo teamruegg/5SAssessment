@@ -27,9 +27,8 @@ on:
 env:
 #edit your values here
   ENVIRONMENT_URL: https://ursrueggpadev.crm.dynamics.com/
-  USERNAME: admin@ursruegg.com
-  APPID: 55b87c27-b943-4cb5-ac80-c08579ee3a29
-  TENANT ID: d4a409a4-2518-434c-a92c-430586bee7b2 
+  CLIENT_ID: 55b87c27-b943-4cb5-ac80-c08579ee3a29
+  TENANT_ID: d4a409a4-2518-434c-a92c-430586bee7b2
 
 
 jobs:
