@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{0c8d6ade-e736-eb11-a813-000d3a8c5bbe}</formid>
+    <IntroducedVersion>0.0.0.11</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="ACBA75B7-97B6-4116-AA55-51312992B721" name="instruction_tab" showlabel="false" labelid="{7b99ae89-2c70-4a31-b97c-6474a70e8cdf}">
+          <labels>
+            <label description="Instruction" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="AD49B5BF-256F-46A8-9C75-947146172EB9" name="instruction_tsection" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{6f140c18-9b87-450a-89a2-1995a27b28e0}">
+                  <labels>
+                    <label description="Adherence check instructions" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f5dd3b5a-2ce7-4999-ab11-0e37eff870b5}" locklevel="0" showlabel="false">
+                        <labels>
+                          <label description="Principal" languagecode="1033" />
+                        </labels>
+                        <control id="ur_fivesprincipal" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ur_fivesprincipal" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1bff98ad-9a21-4de7-b72a-1c6148e2eba4}" locklevel="0" showlabel="false">
+                        <labels>
+                          <label description="Category" languagecode="1033" />
+                        </labels>
+                        <control id="ur_category" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ur_category" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{544a2438-c104-4b2f-9989-16d36ee37ced}" rowspan="1" colspan="1" showlabel="false" auto="true" labelid="{de15c888-ef28-4e84-b51a-1944e8b42c14}">
+                        <labels>
+                          <label description="Level instruction" languagecode="1033" />
+                        </labels>
+                        <control id="instruction_subgrid" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>ur_fiveslevel</TargetEntityType>
+                            <ViewId>{A97E4472-E836-EB11-A813-000D3A98FEDF}</ViewId>
+                            <ViewIds>{2CAB2ADB-2D39-4C4C-8A40-E8BB239558A5},{A97E4472-E836-EB11-A813-000D3A98FEDF}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>ur_fiveslevel_fivescategory_ur_fivescateg</RelationshipName>
+                            <RecordsPerPage>6</RecordsPerPage>
+                            <AutoExpand>Auto</AutoExpand>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Level Instruction" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Shows level adherence check instructions" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

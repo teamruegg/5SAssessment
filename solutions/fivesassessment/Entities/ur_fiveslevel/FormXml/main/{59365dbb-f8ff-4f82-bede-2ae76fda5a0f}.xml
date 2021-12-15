@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{59365dbb-f8ff-4f82-bede-2ae76fda5a0f}</formid>
+    <IntroducedVersion>0.0.0.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{793f4dbf-efcf-4b79-8e74-bb764dbded59}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{eb03c4e0-a8e8-4191-ae94-112a99ce0222}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c1bf8f4e-34d2-436b-b97a-148669c05dec}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="ur_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ur_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{245a5448-8cb0-4b4c-a973-8a1084b32f6a}" locklevel="0">
+                        <labels>
+                          <label description="Category" languagecode="1033" />
+                        </labels>
+                        <control id="ur_fivescategory" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ur_fivescategory" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{454bd4d9-ccb0-4084-a74b-dd33d4b3e93b}" locklevel="0">
+                        <labels>
+                          <label description="Level Choice" languagecode="1033" />
+                        </labels>
+                        <control id="ur_levelchoice" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ur_levelchoice" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0088e949-2e86-436f-8284-5647a8b908ec}" locklevel="0">
+                        <labels>
+                          <label description="Level" languagecode="1033" />
+                        </labels>
+                        <control id="ur_level" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ur_level" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d74f446a-5103-4774-a8b3-4ca4dd4d3295}" locklevel="0">
+                        <labels>
+                          <label description="Factor" languagecode="1033" />
+                        </labels>
+                        <control id="ur_factor" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="ur_factor" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a00134ac-bd10-4412-9067-5c8d147d44b8}" locklevel="0" rowspan="5">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="ur_description" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="ur_description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{8fec6f1d-daa4-4789-963c-5b66fbc85301}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{0eb799d0-3698-43ef-8f09-765f7e86b10f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{0b6d5ac2-2618-4def-8e14-0ec6af308ad0}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{5d504e09-9e23-45fc-94cb-8c9683a61bf7}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{c40b3169-8966-4b87-b662-b490fff2e91b}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{f0cd45b0-d588-44dd-b1e1-465f9a595174}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d6e322bd-6696-40ae-be89-69edf7671f92}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{95763572-68d6-43c1-85d2-2873f30c6962}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

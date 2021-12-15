@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{b57abde7-6b83-42f6-bd3c-2898a7dcee46}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ur_name" select="1" icon="1" preview="1">
+        <row name="result" id="ur_fivesareaid">
+          <cell name="ur_name" width="300" />
+          <cell name="ur_location" width="100" />
+          <cell name="statuscode" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ur_fivesarea">
+          <attribute name="ur_fivesareaid" />
+          <attribute name="ur_name" />
+          <attribute name="createdon" />
+          <order attribute="ur_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="ur_location" />
+          <attribute name="statuscode" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.0.0.7</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Areas" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

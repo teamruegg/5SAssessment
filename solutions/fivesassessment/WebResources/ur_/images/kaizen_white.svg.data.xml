@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{91703de5-8b2d-eb11-a813-000d3ad7c66c}</WebResourceId>
+  <Name>ur_/images/kaizen_white.svg</Name>
+  <DisplayName>ur_/images/kaizen_white.svg</DisplayName>
+  <Description>Kaizen White Logo</Description>
+  <WebResourceType>11</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/ur_imageskaizen_whitesvg91703DE5-8B2D-EB11-A813-000D3AD7C66C</FileName>
+</WebResource>

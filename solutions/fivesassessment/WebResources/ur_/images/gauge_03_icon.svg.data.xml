@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{0a1b7f35-752d-eb11-a813-000d3ad7c66c}</WebResourceId>
+  <Name>ur_/images/gauge_03_icon.svg</Name>
+  <DisplayName>ur_/images/gauge_03_icon.svg</DisplayName>
+  <Description>Gauge 03 Icon</Description>
+  <WebResourceType>11</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/ur_imagesgauge_03_iconsvg0A1B7F35-752D-EB11-A813-000D3AD7C66C</FileName>
+</WebResource>

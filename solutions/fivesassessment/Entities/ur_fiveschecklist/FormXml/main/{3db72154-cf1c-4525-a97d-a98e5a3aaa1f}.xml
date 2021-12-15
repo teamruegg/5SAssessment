@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{3db72154-cf1c-4525-a97d-a98e5a3aaa1f}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{39d24606-9c31-487a-b7df-a310e67ae6f2}" IsUserDefined="1" name="general_tab">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{3b7273ad-1d0a-4bcc-ac83-c0a3cb552f99}" name="general_section">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{82f46226-c4fd-40c4-80fd-803b0ae32779}" showlabel="false">
+                        <labels>
+                          <label description="Level Instructions" languagecode="1033" />
+                        </labels>
+                        <control id="level_lnstructions_quickviewcontrol" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="ur_fivescategory" disabled="false">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="ur_fivescategory"&gt;0c8d6ade-e736-eb11-a813-000d3a8c5bbe&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section name="timeline_section" id="7731aaf3-eb63-4874-bd62-2d20be69f39b" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Timeline" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{b60b0fec-7a0d-4e52-9516-3a4a894bc755}" showlabel="false" rowspan="1">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-C143-495E-A496-C962E5B4488E}" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section name="progress_section" id="af3c8cd6-8259-4fff-92eb-f98656117e29" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Progress" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{193d8dcc-3a20-406d-bb80-47c31dd32115}" locklevel="0">
+                        <labels>
+                          <label description="Completion Score" languagecode="1033" />
+                        </labels>
+                        <control id="ur_completionscore" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="ur_completionscore" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6a908bc7-33c8-43ba-bcab-8e1e5ed491ed}" locklevel="0">
+                        <labels>
+                          <label description="L1 is completed" languagecode="1033" />
+                        </labels>
+                        <control id="ur_level1iscompleted" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ur_level1iscompleted" disabled="false" uniqueid="{7a5606aa-bf23-4742-b4a1-b0a2f7b8d0f7}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2407c3c8-911b-4989-ae00-10397c6db27e}" locklevel="0">
+                        <labels>
+                          <label description="L2 is completed" languagecode="1033" />
+                        </labels>
+                        <control id="ur_level2iscompleted" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ur_level2iscompleted" disabled="false" uniqueid="{0c13aab1-ba6c-4bab-a337-d7470a2d93cf}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0c0900f1-c287-4c58-93ed-0446c42a4e86}" locklevel="0">
+                        <labels>
+                          <label description="L3 is completed" languagecode="1033" />
+                        </labels>
+                        <control id="ur_level3iscompleted" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ur_level3iscompleted" disabled="false" uniqueid="{9d9c1bae-38d9-4a31-aeaf-6a7757d0973a}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f0020094-eb47-4d4e-a62f-c9fee14d4399}" locklevel="0">
+                        <labels>
+                          <label description="L4 is completed" languagecode="1033" />
+                        </labels>
+                        <control id="ur_level4iscompleted" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ur_level4iscompleted" disabled="false" uniqueid="{2092463c-7284-4074-9d24-a8f53595a4d2}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{87d7117d-7c17-4a3e-9e5a-3f625fc98442}" locklevel="0">
+                        <labels>
+                          <label description="L5 is completed" languagecode="1033" />
+                        </labels>
+                        <control id="ur_level5iscompleted" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ur_level5iscompleted" disabled="false" uniqueid="{15e3bfca-f760-486f-a558-a833d5281f6b}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="information_section" id="5ba7a088-5bb3-4103-835b-ae72aee2f153" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9647d4ff-42bb-4994-89d1-8646381fb210}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="ur_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ur_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b03b28ce-5ca6-4cc3-ba48-8b5fde0d009d}" locklevel="0">
+                        <labels>
+                          <label description="Assessment" languagecode="1033" />
+                        </labels>
+                        <control id="ur_fivesassessment" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ur_fivesassessment" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c795f1bc-d6dc-48c8-b0a9-14cf086f6bed}" locklevel="0">
+                        <labels>
+                          <label description="Category" languagecode="1033" />
+                        </labels>
+                        <control id="ur_fivescategory" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ur_fivescategory" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4aacb3aa-59e6-4eca-802e-1bd83f5e9ef3}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bd02c3f6-7e1e-48ce-83e4-933aa96f6e18}" locklevel="0">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{90212fca-11ae-4a81-a357-9fd7173d4e08}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{fdf0af3d-7779-47a2-a624-69347a35fa22}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9325732f-8787-4e1b-9e65-da7f8f7f52c2}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{64010356-e0f2-4f91-bcd6-29eeef464229}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{25db17fb-2e9f-41d0-a144-e7308495e860}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{c332cc2a-dfba-4a41-ae05-74b7eb684a17}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{0196f32c-5834-4e9f-8457-ca5cd2dc9fb5}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e7a1c382-bca0-4ef5-9754-e6d3b042e0fb}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <controlDescriptions>
+        <controlDescription forControl="{7a5606aa-bf23-4742-b4a1-b0a2f7b8d0f7}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>ur_level1iscompleted</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>ur_level1iscompleted</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>ur_level1iscompleted</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>ur_level1iscompleted</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{0c13aab1-ba6c-4bab-a337-d7470a2d93cf}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>ur_level2iscompleted</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>ur_level2iscompleted</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>ur_level2iscompleted</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>ur_level2iscompleted</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{9d9c1bae-38d9-4a31-aeaf-6a7757d0973a}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>ur_level3iscompleted</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>ur_level3iscompleted</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>ur_level3iscompleted</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>ur_level3iscompleted</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{2092463c-7284-4074-9d24-a8f53595a4d2}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>ur_level4iscompleted</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>ur_level4iscompleted</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>ur_level4iscompleted</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>ur_level4iscompleted</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{15e3bfca-f760-486f-a558-a833d5281f6b}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>ur_level5iscompleted</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>ur_level5iscompleted</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>ur_level5iscompleted</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>ur_level5iscompleted</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="5S Checklist main form" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

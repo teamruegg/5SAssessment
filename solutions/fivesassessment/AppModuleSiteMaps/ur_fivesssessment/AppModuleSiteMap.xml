@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMapUniqueName>ur_fivesssessment</SiteMapUniqueName>
+  <EnableCollapsibleGroups>False</EnableCollapsibleGroups>
+  <ShowHome>True</ShowHome>
+  <ShowPinned>True</ShowPinned>
+  <ShowRecents>True</ShowRecents>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Id="main_area" ResourceId="SitemapDesigner.NewArea" DescriptionResourceId="SitemapDesigner.NewArea" VectorIcon="/WebResources/ur_/images/audit_icon.svg" Icon="/WebResources/ur_/images/audit_icon.svg" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title LCID="1033" Title="Assessment" />
+      </Titles>
+      <Group Id="main_group" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Main" />
+        </Titles>
+        <SubArea Id="assessment_subarea" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" Entity="ur_fivesassessment" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Assessment" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="checklist_subarea" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ur_fiveschecklist" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Checklist" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="improvement_subarea" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ur_fivesimprovement" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Improvement" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+    <Area Id="admin_area" ResourceId="SitemapDesigner.NewArea" ShowGroups="false">
+      <Titles>
+        <Title LCID="1033" Title="Admin" />
+      </Titles>
+      <Group Id="master_data_group" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Master Data" />
+        </Titles>
+        <SubArea Id="location_subarea" Entity="ur_fiveslocation" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Location" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="area_subarea" Entity="ur_fivesarea" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Area" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="assessmenttype_subarea" Entity="ur_fivesassessmenttype" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Assessment Type" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="category_subarea" Entity="ur_fivescategory" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Category" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="level_subarea" Entity="ur_fiveslevel" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Level" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="admin_group" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Admin" />
+        </Titles>
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="5S Assessment" languagecode="1033" />
+  </LocalizedNames>
+</AppModuleSiteMap>

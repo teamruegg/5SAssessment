@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{aadd46ab-2df9-4a02-86d0-21c9c821e56e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ur_name" select="1" icon="1" preview="1">
+        <row name="result" id="ur_fivesassessmentid">
+          <cell name="ur_name" width="300" />
+          <cell name="ur_area" width="100" />
+          <cell name="ur_assessmenttype" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ur_fivesassessment">
+          <attribute name="ur_fivesassessmentid" />
+          <attribute name="ur_name" />
+          <order attribute="ur_name" descending="false" />
+          <attribute name="ur_assessmenttype" />
+          <attribute name="ur_area" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Assessment Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

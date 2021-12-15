@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Role id="{3b800164-3d2e-eb11-a813-000d3ab5acdf}" name="5S Owner" isinherited="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsCustomizable>1</IsCustomizable>
+  <RolePrivileges>
+    <RolePrivilege name="prvAppendBusinessUnit" level="Global" />
+    <RolePrivilege name="prvAppendRole" level="Global" />
+    <RolePrivilege name="prvAppendToBusinessUnit" level="Global" />
+    <RolePrivilege name="prvAppendToOrganization" level="Global" />
+    <RolePrivilege name="prvAppendToRole" level="Global" />
+    <RolePrivilege name="prvAppendTour_fivesarea" level="Global" />
+    <RolePrivilege name="prvAppendTour_fivesassessment" level="Local" />
+    <RolePrivilege name="prvAppendTour_fivesassessmenttype" level="Global" />
+    <RolePrivilege name="prvAppendTour_fivescategory" level="Global" />
+    <RolePrivilege name="prvAppendTour_fiveschecklist" level="Local" />
+    <RolePrivilege name="prvAppendTour_fiveslevel" level="Global" />
+    <RolePrivilege name="prvAppendTour_fiveslocation" level="Global" />
+    <RolePrivilege name="prvAppendToUser" level="Global" />
+    <RolePrivilege name="prvAppendur_fivesarea" level="Global" />
+    <RolePrivilege name="prvAppendur_fivesassessment" level="Local" />
+    <RolePrivilege name="prvAppendur_fivesassessmenttype" level="Global" />
+    <RolePrivilege name="prvAppendur_fivescategory" level="Global" />
+    <RolePrivilege name="prvAppendur_fiveschecklist" level="Local" />
+    <RolePrivilege name="prvAppendur_fiveslevel" level="Global" />
+    <RolePrivilege name="prvAppendur_fiveslocation" level="Global" />
+    <RolePrivilege name="prvAppendUser" level="Global" />
+    <RolePrivilege name="prvAssignRole" level="Global" />
+    <RolePrivilege name="prvAssignur_fivesassessment" level="Local" />
+    <RolePrivilege name="prvAssignur_fiveschecklist" level="Local" />
+    <RolePrivilege name="prvBulkEdit" level="Global" />
+    <RolePrivilege name="prvCreateSharePointData" level="Global" />
+    <RolePrivilege name="prvCreateur_fivesassessment" level="Basic" />
+    <RolePrivilege name="prvCreateur_fiveschecklist" level="Basic" />
+    <RolePrivilege name="prvDeleteur_fivesassessment" level="Basic" />
+    <RolePrivilege name="prvDeleteur_fiveschecklist" level="Basic" />
+    <RolePrivilege name="prvExportToExcel" level="Global" />
+    <RolePrivilege name="prvMerge" level="Global" />
+    <RolePrivilege name="prvReadBusinessUnit" level="Global" />
+    <RolePrivilege name="prvReadOrganization" level="Global" />
+    <RolePrivilege name="prvReadPluginAssembly" level="Global" />
+    <RolePrivilege name="prvReadPluginType" level="Global" />
+    <RolePrivilege name="prvReadRole" level="Global" />
+    <RolePrivilege name="prvReadSdkMessage" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStep" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStepImage" level="Global" />
+    <RolePrivilege name="prvReadSharePointData" level="Global" />
+    <RolePrivilege name="prvReadSharePointDocument" level="Global" />
+    <RolePrivilege name="prvReadur_fivesarea" level="Global" />
+    <RolePrivilege name="prvReadur_fivesassessment" level="Global" />
+    <RolePrivilege name="prvReadur_fivesassessmenttype" level="Global" />
+    <RolePrivilege name="prvReadur_fivescategory" level="Global" />
+    <RolePrivilege name="prvReadur_fiveschecklist" level="Global" />
+    <RolePrivilege name="prvReadur_fiveslevel" level="Global" />
+    <RolePrivilege name="prvReadur_fiveslocation" level="Global" />
+    <RolePrivilege name="prvReadUser" level="Global" />
+    <RolePrivilege name="prvShareur_fivesassessment" level="Local" />
+    <RolePrivilege name="prvShareur_fiveschecklist" level="Local" />
+    <RolePrivilege name="prvUseTabletApp" level="Global" />
+    <RolePrivilege name="prvWriteSharePointData" level="Global" />
+    <RolePrivilege name="prvWriteur_fivesassessment" level="Basic" />
+    <RolePrivilege name="prvWriteur_fiveschecklist" level="Basic" />
+  </RolePrivileges>
+</Role>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="ur_fivesprincipals" localizedName="5S Principals" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>0.0.0.1</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="5S Principals" languagecode="1033" />
+  </displaynames>
+  <options>
+    <option value="315810000">
+      <labels>
+        <label description="1 - Sort (Seiri)" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="315810001">
+      <labels>
+        <label description="2 - Set in order (Seiton)" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="315810002">
+      <labels>
+        <label description="3 - Shine (Seiso)" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="315810003">
+      <labels>
+        <label description="4 - Standardize (Seiketsu)" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="315810004">
+      <labels>
+        <label description="5 - Sustain (Shitsuke)" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

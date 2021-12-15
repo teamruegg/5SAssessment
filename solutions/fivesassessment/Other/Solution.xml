@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.21111.149" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>fivesassessment</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="5S Assessment" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="5S is a workplace organization method that uses a list of five Japanese words: seiri (整理), seiton (整頓), seisō (清掃), seiketsu (清潔), and shitsuke (躾)&#xA;&#xA;The list describes how to organize a work space for efficiency and effectiveness by identifying and storing the items used, maintaining the area and items, and sustaining the new order. The decision-making process usually comes from a dialogue about standardization, which builds understanding among employees of how they should do the work.&#xA;&#xA;Other than a specific stand-alone methodology, 5S is frequently viewed as an element of a broader construct known as visual control, visual workplace, or visual factory." languagecode="1033" />
+    </Descriptions>
+    <Version>0.0.0.14</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>ursruegg</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Urs Rüegg" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress>urs.ruegg@teamruegg.com</EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>ur</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>31581</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City>Zumikon</City>
+          <County xsi:nil="true"></County>
+          <Country>Switzerland</Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1>Ankenbüel 7</Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode>8126</PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince>ZH</StateOrProvince>
+          <Telephone1>+41 (79) 6001784</Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="ur_fivesarea" behavior="0" />
+      <RootComponent type="1" schemaName="ur_fivesassessment" behavior="0" />
+      <RootComponent type="1" schemaName="ur_fivesassessmenttype" behavior="0" />
+      <RootComponent type="1" schemaName="ur_fivescategory" behavior="0" />
+      <RootComponent type="1" schemaName="ur_fiveschecklist" behavior="0" />
+      <RootComponent type="1" schemaName="ur_fivesimprovement" behavior="0" />
+      <RootComponent type="1" schemaName="ur_fiveslevel" behavior="0" />
+      <RootComponent type="1" schemaName="ur_fiveslocation" behavior="0" />
+      <RootComponent type="9" schemaName="ur_fiveslevel" behavior="0" />
+      <RootComponent type="9" schemaName="ur_fivesprincipals" behavior="0" />
+      <RootComponent type="20" id="{3b800164-3d2e-eb11-a813-000d3ab5acdf}" behavior="0" />
+      <RootComponent type="20" id="{ead1813f-3d2e-eb11-a813-000d3ab5acdf}" behavior="0" />
+      <RootComponent type="29" id="{0c5f0cb0-d651-ec11-8c62-000d3a59adad}" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/5SAssessmentInfo.html" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/audit_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/board_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/board_white_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/bullets_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/contoso_logo.png" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/contoso_logo.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/document_check_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/factory_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/gauge_03_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/gear_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/home_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/kaizen.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/kaizen_white.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/location_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/row_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/tag_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/vertical_barchart_icon.svg" behavior="0" />
+      <RootComponent type="62" schemaName="ur_5SAssessment" behavior="0" />
+      <RootComponent type="62" schemaName="ur_fivesssessment" behavior="0" />
+      <RootComponent type="80" schemaName="ur_5SAssessment" behavior="0" />
+      <RootComponent type="300" schemaName="ur_5sweeklyassessment_e9d30" behavior="0" />
+      <RootComponent type="300" schemaName="ur_s5checkimprovement_8d6fb" behavior="0" />
+      <RootComponent type="431" schemaName="ur_fivesarea ur_areaplan" behavior="0" />
+      <RootComponent type="431" schemaName="ur_fivesimprovement ur_capturedimageafter" behavior="0" />
+      <RootComponent type="431" schemaName="ur_fivesimprovement ur_capturedimagebefore" behavior="0" />
+      <RootComponent type="432" schemaName="ur_fivesarea" behavior="0" />
+      <RootComponent type="432" schemaName="ur_fivesimprovement" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.2.21111.00149)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="5S Checklist" id="{3db72154-cf1c-4525-a97d-a98e5a3aaa1f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.2111.1015)" />
+        <Dependent type="68" id="{3b492c13-45ca-4991-8204-214df8a50644}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.2111.1015)" />
+        <Dependent type="68" id="{3f5da6a1-0295-4faa-98ab-c2b54ca8b38c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.2111.1015)" />
+        <Dependent type="68" id="{681b22ed-7550-442c-96a9-3d2a0cfc2c09}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.2111.1015)" />
+        <Dependent type="68" id="{ed5649e6-c695-4e0f-941d-d2478fd387c5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.2111.1015)" />
+        <Dependent type="68" id="{effa377e-e7ba-4144-b51e-4ca956dbc34e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.2111.1015)" />
+        <Dependent type="68" id="{f2b577b4-0225-4315-999a-4fedd2567f11}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
