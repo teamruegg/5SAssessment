@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{1b274ff2-f1e5-466f-8fd5-c23de2bdd5a6}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ur_name" select="1" icon="1" preview="1">
+        <row name="result" id="ur_fivescategoryid">
+          <cell name="ur_assessmenttype" width="50" />
+          <cell name="ur_fivesprincipal" width="166" />
+          <cell name="ur_sortcode" width="40" />
+          <cell name="ur_category" width="184" />
+          <cell name="ur_name" width="300" />
+          <cell name="ur_description" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ur_fivescategory">
+          <attribute name="ur_fivescategoryid" />
+          <attribute name="ur_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="ur_sortcode" />
+          <attribute name="ur_description" />
+          <attribute name="ur_fivesprincipal" />
+          <attribute name="ur_assessmenttype" />
+          <order attribute="ur_assessmenttype" descending="false" />
+          <order attribute="ur_fivesprincipal" descending="false" />
+          <order attribute="ur_sortcode" descending="false" />
+          <attribute name="ur_category" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.0.0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Categories" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{4530630a-67f8-4b91-9585-24329d78a37b}</savedqueryid>
+    <layoutxml>
+      <grid name="ur_fiveslevels" jump="ur_name" select="1" icon="1" preview="1">
+        <row name="ur_fiveslevel" id="ur_fiveslevelid">
+          <cell name="ur_name" width="300" />
+          <cell name="ur_fivescategory" width="286" />
+          <cell name="ur_levelchoice" width="100" />
+          <cell name="ur_factor" width="54" />
+          <cell name="ur_description" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ur_fiveslevel">
+          <attribute name="ur_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="ur_fivescategory" />
+          <attribute name="ur_factor" />
+          <attribute name="ur_description" />
+          <order attribute="ur_fivescategory" descending="false" />
+          <attribute name="ur_levelchoice" />
+          <attribute name="ur_fiveslevelid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.0.0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Level Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

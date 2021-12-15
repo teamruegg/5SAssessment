@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>ur_5sweeklyassessment_e9d30</Name>
+  <AppVersion>2021-12-09T07:21:27Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.21112.22.0</CreatedByClientVersion>
+  <MinClientVersion>3.21112.22.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"1e73b47b-814a-4d2c-a4c2-bf8f0ed3f9bb","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.21112.22","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+  <DisplayName>5S Weekly Assessment</DisplayName>
+  <Description>5S Weekly Assessment app</Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{"5S Assessments":{"entitySetName":"ur_fivesassessments","logicalName":"ur_fivesassessment"},"5S Checklists":{"entitySetName":"ur_fiveschecklists","logicalName":"ur_fiveschecklist"},"5S Areas":{"entitySetName":"ur_fivesareas","logicalName":"ur_fivesarea"},"5S Locations":{"entitySetName":"ur_fiveslocations","logicalName":"ur_fiveslocation"},"5S Categories":{"entitySetName":"ur_fivescategories","logicalName":"ur_fivescategory"},"5S Levels":{"entitySetName":"ur_fiveslevels","logicalName":"ur_fiveslevel"},"5S Improvement Tasks":{"entitySetName":"ur_fivesimprovements","logicalName":"ur_fivesimprovement"},"5S Assessment Types":{"entitySetName":"ur_fivesassessmenttypes","logicalName":"ur_fivesassessmenttype"}}}}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"ur_fivesassessment","componenttype":1},{"logicalname":"ur_fiveschecklist","componenttype":1},{"logicalname":"ur_fivesarea","componenttype":1},{"logicalname":"ur_fiveslocation","componenttype":1},{"logicalname":"ur_fivescategory","componenttype":1},{"logicalname":"ur_fiveslevel","componenttype":1},{"logicalname":"ur_fivesimprovement","componenttype":1},{"logicalname":"ur_fivesassessmenttype","componenttype":1}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/ur_5sweeklyassessment_e9d30_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/ur_5sweeklyassessment_e9d30_DocumentUri.msapp</DocumentUri>
+</CanvasApp>

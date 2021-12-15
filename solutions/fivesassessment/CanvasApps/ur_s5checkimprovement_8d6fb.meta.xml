@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>ur_s5checkimprovement_8d6fb</Name>
+  <AppVersion>2021-12-06T05:57:52Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.21112.22.0</CreatedByClientVersion>
+  <MinClientVersion>3.21112.22.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"90f72ffb-e350-4c91-8b2e-509a0b5d3ee9","deviceCapabilities":"","supportsPortrait":"false","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.21112.22","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>rgba(0, 176, 240, 1)</BackgroundColor>
+  <DisplayName>S5 Check Improvement</DisplayName>
+  <Description>S5 Check Improvement</Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{"5S Areas":{"entitySetName":"ur_fivesareas","logicalName":"ur_fivesarea"},"5S Assessments":{"entitySetName":"ur_fivesassessments","logicalName":"ur_fivesassessment"},"5S Locations":{"entitySetName":"ur_fiveslocations","logicalName":"ur_fiveslocation"},"5S Assessment Types":{"entitySetName":"ur_fivesassessmenttypes","logicalName":"ur_fivesassessmenttype"},"Attachments":{"entitySetName":"attachments","logicalName":"attachment"},"Notes":{"entitySetName":"annotations","logicalName":"annotation"},"5S Improvement Tasks":{"entitySetName":"ur_fivesimprovements","logicalName":"ur_fivesimprovement"}}}}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"ur_fivesarea","componenttype":1},{"logicalname":"ur_fivesassessment","componenttype":1},{"logicalname":"ur_fiveslocation","componenttype":1},{"logicalname":"ur_fivesassessmenttype","componenttype":1},{"logicalname":"attachment","componenttype":1},{"logicalname":"annotation","componenttype":1},{"logicalname":"ur_fivesimprovement","componenttype":1}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/ur_s5checkimprovement_8d6fb_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/ur_s5checkimprovement_8d6fb_DocumentUri.msapp</DocumentUri>
+</CanvasApp>

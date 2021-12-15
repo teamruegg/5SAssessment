@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{36c21f5d-e4ba-4bc5-959e-4000a09c5212}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ur_name" select="1" icon="1" preview="1">
+        <row name="result" id="ur_fiveschecklistid">
+          <cell name="ur_fivesassessment" width="193" />
+          <cell name="ur_name" width="300" />
+          <cell name="ur_completionscore" width="50" />
+          <cell name="ur_level1iscompleted" width="50" />
+          <cell name="ur_level2iscompleted" width="50" />
+          <cell name="ur_level3iscompleted" width="50" />
+          <cell name="ur_level4iscompleted" width="50" />
+          <cell name="ur_level5iscompleted" width="50" />
+          <cell name="a_5958de12a0474b0fa851f9a27a29e375.ur_fivesprincipal" width="166" />
+          <cell name="a_5958de12a0474b0fa851f9a27a29e375.ur_category" width="184" />
+          <cell name="a_5958de12a0474b0fa851f9a27a29e375.ur_description" width="211" />
+          <cell name="ownerid" width="100" />
+          <cell name="statuscode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ur_fiveschecklist">
+          <attribute name="ur_fiveschecklistid" />
+          <attribute name="ur_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="ur_fivesassessment" />
+          <attribute name="ur_completionscore" />
+          <attribute name="ur_level1iscompleted" />
+          <attribute name="ur_level2iscompleted" />
+          <attribute name="ur_level3iscompleted" />
+          <attribute name="ur_level4iscompleted" />
+          <attribute name="ur_level5iscompleted" />
+          <attribute name="ownerid" />
+          <attribute name="statuscode" />
+          <order attribute="ur_fivesassessment" descending="false" />
+          <order attribute="ur_name" descending="false" />
+          <link-entity alias="a_5958de12a0474b0fa851f9a27a29e375" name="ur_fivescategory" to="ur_fivescategory" from="ur_fivescategoryid" link-type="outer" visible="false">
+            <attribute name="ur_fivesprincipal" />
+            <attribute name="ur_description" />
+            <attribute name="ur_category" />
+          </link-entity>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Checklists" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{bfbf803c-3f8a-4339-b27e-02a32ad79187}</formid>
+    <IntroducedVersion>0.0.0.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{398aff27-d411-484f-90ea-acc3e226d4ce}" IsUserDefined="1" name="general_tab">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{36864fd3-3298-43a1-b53f-638d74b3873f}" name="general_section">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{feead99d-3821-4b2f-8ee5-42fdbcd4dbc6}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="ur_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ur_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fa1c14e2-1996-4546-92b3-cc69c8071012}" locklevel="0">
+                        <labels>
+                          <label description="Category" languagecode="1033" />
+                        </labels>
+                        <control id="ur_category" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ur_category" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f0593214-01cd-43fa-8821-666a8d567b76}" locklevel="0">
+                        <labels>
+                          <label description="Principal" languagecode="1033" />
+                        </labels>
+                        <control id="ur_fivesprincipal" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ur_fivesprincipal" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{609f29e9-c3a2-4404-a5e5-bd7213f821af}" locklevel="0">
+                        <labels>
+                          <label description="Sort Code" languagecode="1033" />
+                        </labels>
+                        <control id="ur_sortcode" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ur_sortcode" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="2" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

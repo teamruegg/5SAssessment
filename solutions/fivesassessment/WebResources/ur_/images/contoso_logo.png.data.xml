@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{ca71842f-752d-eb11-a813-000d3ad7c66c}</WebResourceId>
+  <Name>ur_/images/contoso_logo.png</Name>
+  <DisplayName>ur_/images/contoso_logo.png</DisplayName>
+  <Description>Contoso Logo</Description>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/ur_imagescontoso_logopngCA71842F-752D-EB11-A813-000D3AD7C66C</FileName>
+</WebResource>

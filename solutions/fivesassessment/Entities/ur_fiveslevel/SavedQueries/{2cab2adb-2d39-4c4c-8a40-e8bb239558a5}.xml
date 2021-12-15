@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{2cab2adb-2d39-4c4c-8a40-e8bb239558a5}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ur_name" select="1" icon="1" preview="1">
+        <row name="result" id="ur_fiveslevelid">
+          <cell name="ur_name" width="300" />
+          <cell name="a_ef154d0c3a1547c888438c18863e7074.ur_fivesprincipal" width="150" />
+          <cell name="a_ef154d0c3a1547c888438c18863e7074.ur_sortcode" width="50" />
+          <cell name="a_ef154d0c3a1547c888438c18863e7074.ur_category" width="150" />
+          <cell name="ur_levelchoice" width="100" />
+          <cell name="ur_factor" width="75" />
+          <cell name="ur_description" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ur_fiveslevel">
+          <attribute name="ur_fiveslevelid" />
+          <attribute name="ur_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="ur_factor" />
+          <attribute name="ur_description" />
+          <link-entity alias="a_ef154d0c3a1547c888438c18863e7074" name="ur_fivescategory" to="ur_fivescategory" from="ur_fivescategoryid" link-type="outer" visible="false">
+            <attribute name="ur_fivesprincipal" />
+            <attribute name="ur_category" />
+            <attribute name="ur_sortcode" />
+          </link-entity>
+          <attribute name="ur_levelchoice" />
+          <order attribute="ur_name" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.0.0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Levels" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

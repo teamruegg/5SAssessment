@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{f2e79624-c0bc-4453-945c-8227884c91e7}</savedqueryid>
+    <layoutxml>
+      <grid name="ur_fivescategories" jump="ur_name" select="1" icon="1" preview="1">
+        <row name="ur_fivescategory" id="ur_fivescategoryid">
+          <cell name="ur_fivesprincipal" width="200" />
+          <cell name="ur_sortcode" width="50" />
+          <cell name="ur_category" width="175" />
+          <cell name="ur_name" width="300" />
+          <cell name="ur_description" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ur_fivescategory">
+          <attribute name="ur_fivescategoryid" />
+          <attribute name="ur_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="ur_sortcode" />
+          <attribute name="ur_description" />
+          <attribute name="ur_fivesprincipal" />
+          <order attribute="ur_fivesprincipal" descending="false" />
+          <order attribute="ur_sortcode" descending="false" />
+          <attribute name="ur_category" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.0.0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Category Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

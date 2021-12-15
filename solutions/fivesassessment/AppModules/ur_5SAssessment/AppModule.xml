@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>ur_5SAssessment</UniqueName>
+  <IntroducedVersion>0.0.0.14</IntroducedVersion>
+  <WebResourceId>91703de5-8b2d-eb11-a813-000d3ad7c66c</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="62" schemaName="ur_5SAssessment" />
+    <AppModuleComponent type="1" schemaName="ur_fivesarea" />
+    <AppModuleComponent type="1" schemaName="ur_fivesassessment" />
+    <AppModuleComponent type="1" schemaName="ur_fivesassessmenttype" />
+    <AppModuleComponent type="1" schemaName="ur_fivescategory" />
+    <AppModuleComponent type="1" schemaName="ur_fiveschecklist" />
+    <AppModuleComponent type="1" schemaName="ur_fivesimprovement" />
+    <AppModuleComponent type="1" schemaName="ur_fiveslevel" />
+    <AppModuleComponent type="1" schemaName="ur_fiveslocation" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="5S Assessment" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="5S is a workplace organization method that uses a list of five Japanese words: seiri (整理), seiton (整頓), seisō (清掃), seiketsu (清潔), and shitsuke (躾)&#xA;" languagecode="1033" />
+  </Descriptions>
+</AppModule>
