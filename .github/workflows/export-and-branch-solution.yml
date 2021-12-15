@@ -26,9 +26,9 @@ on:
 
 env:
 #edit your values here
-  ENVIRONMENT_URL: 'https://ursrueggpadev.crm.dynamics.com'
-  CLIENT_ID: 'a5f740ea-e193-489b-9310-558fcdf8182a'
-  TENANT_ID: 'd4a409a4-2518-434c-a92c-430586bee7b2'
+  ENVIRONMENT_URL: https://ursrueggpadev.crm.dynamics.com
+  CLIENT_ID: a5f740ea-e193-489b-9310-558fcdf8182a
+  TENANT_ID: d4a409a4-2518-434c-a92c-430586bee7b2
 
 
 jobs:
