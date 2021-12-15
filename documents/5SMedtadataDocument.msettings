@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GenerationSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AddAuditInformation>true</AddAuditInformation>
+  <AddEntitiesSummary>true</AddEntitiesSummary>
+  <AddFieldSecureInformation>true</AddFieldSecureInformation>
+  <AddFormLocation>true</AddFormLocation>
+  <AddRequiredLevelInformation>true</AddRequiredLevelInformation>
+  <AddValidForAdvancedFind>true</AddValidForAdvancedFind>
+  <AttributesSelection>AllAttributes</AttributesSelection>
+  <DisplayNamesLangugageCode>0</DisplayNamesLangugageCode>
+  <EntitiesToProceed>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_fivesassessment</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_fivesassessmenttype</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_fivescategory</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_fiveschecklist</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_fiveschecklistprocess</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_fivesimprovement</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>ur_fiveslevel</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>businessunit</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>site</Name>
+    </EntityItem>
+    <EntityItem>
+      <Attributes />
+      <Forms />
+      <Name>systemuser</Name>
+    </EntityItem>
+  </EntitiesToProceed>
+  <FilePath>C:\Users\urruegg\source\teamruegg\5SAssessment\Documents\5SMedtadataDocument.xlsx</FilePath>
+  <GenerateOnlyOneTable>false</GenerateOnlyOneTable>
+  <IncludeOnlyAttributesOnForms>false</IncludeOnlyAttributesOnForms>
+  <OutputDocumentType>Excel</OutputDocumentType>
+</GenerationSettings>
