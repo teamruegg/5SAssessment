@@ -1,9 +1,9 @@
-!{Image of 5S Assessment}(/images/5SAssessment_apps_255x115.png)
+![Image of 5S Assessment](/Images/5SAssessment_apps_255x115.png)
 
 # 5S Assessment
 
 ## 5S methodology - Kaizen and Lean Management
-!{Image of 5S methodology}(/images/5Smethodology.png)
+![Image of 5S methodology](/images/5Smethodology.png)
 
 ## Introduction
 5S is a workplace organization method that uses a list of five Japanese words Seiri, Seiton, Seiso, Seiketsu and Shitsuke.
