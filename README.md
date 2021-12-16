@@ -1,4 +1,4 @@
-![Image of 5S Assessment](/Images/5SAssessment_apps_255x115.png)
+![Image of 5S Assessment](/images/5SAssessment_apps_255x115.png)
 
 # 5S Assessment
 
