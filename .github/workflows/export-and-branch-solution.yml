@@ -1,6 +1,17 @@
 name: export-and-branch-solution
 # Export solution from DEV environment
 #  unpack it and prepare, commit and push a git branch with the changes
+#  using spn-auth with App ID and Tenant ID 
+#
+#   secrets.Password             <Power Platform User Password>
+#   secrets.PowerPlatformSPN     <Service Principal Authentication Client Secrets>
+#   secrets.AppID                <Service Principal Application ID>
+#   secrets.TenantID             <Service Principal Tenant ID>
+#
+#  environment variables settings:
+#   DEVELOPMENT_ENVIRONMENT_URL   <'https://environment.crm.dynamics.com'>
+#   BUILD_ENVIRONMENT_URL         <'https://environment.crm.dynamics.com'>
+#   PRODUCTION_ENVIRONMENT_URL    <'https://environment.crm.dynamics.com'>
 
 on:
   workflow_dispatch:
