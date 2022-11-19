@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>ur_5sweeklyassessment_e9d30</Name>
-  <AppVersion>2021-12-09T07:21:27Z</AppVersion>
+  <AppVersion>2022-11-19T14:45:04Z</AppVersion>
   <Status>Ready</Status>
-  <CreatedByClientVersion>3.21112.22.0</CreatedByClientVersion>
-  <MinClientVersion>3.21112.22.0</MinClientVersion>
-  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"1e73b47b-814a-4d2c-a4c2-bf8f0ed3f9bb","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.21112.22","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false"}</Tags>
+  <CreatedByClientVersion>3.22111.19.0</CreatedByClientVersion>
+  <MinClientVersion>3.22111.19.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"dfdcbc72-72c8-48e5-a1fa-a8b7dcc45fcd","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.22111.19","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false"}</Tags>
   <IsCdsUpgraded>0</IsCdsUpgraded>
   <GalleryItemId xsi:nil="true"></GalleryItemId>
-  <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+  <BackgroundColor>rgba(56, 96, 178, 1)</BackgroundColor>
   <DisplayName>5S Weekly Assessment</DisplayName>
   <Description>5S Weekly Assessment app</Description>
   <CommitMessage xsi:nil="true"></CommitMessage>
